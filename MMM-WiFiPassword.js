@@ -48,11 +48,7 @@ Module.register("MMM-WiFiPassword", {
 	  if (!this.config.layoutVertical) {
 		  div.style.height = this.config.qrSize + "px";
 	  }
-	  
-	  var header = document.createElement('header');
-	  header.innerHTML = "Local WiFi Details";
-	  div.appendChild(header);
-	  
+	  	  
 	  var qrDiv = document.createElement("div");
 	  qrDiv.id = "qrdiv";
 	  qrDiv.className = "qr-image";

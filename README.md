@@ -25,6 +25,7 @@ modules:[
   {
     module: 'MMM-WiFiPassword',
     position: "top_left",
+    header: "Guest WiFi",
       config: {
         //See 'Configuration options' for more information.
         network: "my_network", 
